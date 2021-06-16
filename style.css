@@ -6,7 +6,36 @@ body{
 }
 header{
   font-family: 'Inconsolata', 'sans-serif';
+  font-weight: bold;
+  font-size: 15px;
 }
 section{
   font-family: 'Space Mono', sans-serif;
+ margin-top: 8%;
+ display: flex;
+}
+section img{
+max-width:450px;
+ max-height:325px;
+ width: auto;
+ height: auto;
+ margin-left: 65px;
+ margin-right: 100px;
+}
+section  h1{
+font-style: normal;
+color: #333333;
+font-size: 30px;
+font-weight: bold;
+letter-spacing: -0.035em;
+text-align: left;
+
+}
+section  p{
+ max-width: 260px;
+ color: #4F4F4F;
+font-style: normal;
+line-height: 25px;
+letter-spacing: -0.035em; 
+text-align: left;
 }
