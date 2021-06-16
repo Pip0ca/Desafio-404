@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body{
+  margin: 25px;
+}
+header{
+  font-family: 'Inconsolata', 'sans-serif';
+}
+section{
+  font-family: 'Space Mono', sans-serif;
+}
