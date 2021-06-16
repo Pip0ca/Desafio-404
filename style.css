@@ -10,7 +10,7 @@ header{
   font-size: 15px;
 }
 section{
-  font-family: 'Space Mono', sans-serif;
+font-family: 'Space Mono', sans-serif;
  margin-top: 8%;
  display: flex;
 }
@@ -19,7 +19,6 @@ max-width:450px;
  max-height:325px;
  width: auto;
  height: auto;
- margin-left: 65px;
  margin-right: 100px;
 }
 section  h1{
@@ -29,13 +28,44 @@ font-size: 30px;
 font-weight: bold;
 letter-spacing: -0.035em;
 text-align: left;
-
 }
 section  p{
- max-width: 260px;
- color: #4F4F4F;
+max-width: 260px;
+color: #4F4F4F;
 font-style: normal;
 line-height: 25px;
 letter-spacing: -0.035em; 
 text-align: left;
 }
+section button{
+  background-color: #333333;
+  color: white;
+  padding: 15px ;
+  border: none;
+  margin-top: 5%;
+  transition: filter 0.5s; /*efeito ao colocar o mouse em cima*/
+}
+
+@media only screen and (max-device-width: 730px){
+  section img{
+ max-width:100%;
+ min-width: 150px;
+ width: auto;
+ height: auto;
+ margin-right: 50px;
+  }
+}
+
+@media only screen and (max-device-width: 425px){
+  section{
+  display: block;
+  }
+  
+  section img{
+    max-width:300px;
+    min-width: 250px;
+    align-items: center;
+  }
+}
+
+
